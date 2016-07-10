@@ -7,8 +7,8 @@
 ### 使用方法
 
   ```
-  git clone
-  cd
+  git clone https://github.com/VisualCrew/es6-on-web.git
+  cd es6-on-web
   npm install
   npm start
   ```
@@ -20,11 +20,22 @@
 
 ### 目录
 
-* [对象的扩展](https://github.com/VisualCrew)：[code](https://github.com/VisualCrew), [docs](https://github.com/VisualCrew)
+* [变量及解构](module/var.es) - [详细文档](http://es6.ruanyifeng.com/#docs/destructuring)
+* [字符串的扩展](module/string.es) - [详细文档](http://es6.ruanyifeng.com/#docs/string)
+* [正则的扩展](module/regexp.es) - [详细文档](http://es6.ruanyifeng.com/#docs/regex)
+* [数值的扩展](module/number.es) - [详细文档](http://es6.ruanyifeng.com/#docs/number)
+* [Math 的扩展](module/math.es) - [详细文档](http://es6.ruanyifeng.com/#docs/number#Math对象的扩展)
+* [数组的扩展](module/array.es) - [详细文档](http://es6.ruanyifeng.com/#docs/array)
+* [函数的扩展](module/function.es) - [详细文档](http://es6.ruanyifeng.com/#docs/function)
+* [对象的扩展](module/object.es) - [详细文档](http://es6.ruanyifeng.com/#docs/object)
 
 
 ### 日志
 
-* [diff](https://github.com/VisualCrew) on []
-  * 1
-  * 2
+* *2016.07.10*
+  * 基础扩展
+
+
+### 感谢
+
+  [@ruanyf](https://github.com/ruanyf) 及其精彩、细致的教程：[ECMAScript 6入门](http://es6.ruanyifeng.com/)
