@@ -1,0 +1,39 @@
+{
+  "name": "es6-on-web",
+  "version": "1.0.0",
+  "description": "玩遍 ECMAScript 2015",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "webpack-dev-server --config webpack.config.hot.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/VisualCrew/es6-on-web.git"
+  },
+  "keywords": [
+    "VisualCrew",
+    "@VisualCrew/d-e",
+    "es6",
+    "ECMAScript-2015"
+  ],
+  "author": "@VisualCrew/d-e",
+  "license": "BSD-3-Clause",
+  "bugs": {
+    "url": "https://github.com/VisualCrew/es6-on-web/issues"
+  },
+  "homepage": "https://github.com/VisualCrew/es6-on-web#readme",
+  "devDependencies": {
+    "babel-loader": "^6.2.4",
+    "babel-preset-es2015": "^6.9.0",
+    "css-loader": "^0.23.1",
+    "file-loader": "^0.9.0",
+    "style-loader": "^0.13.1",
+    "url-loader": "^0.5.7",
+    "webpack": "^1.13.1",
+    "webpack-dev-server": "^1.14.1"
+  },
+  "dependencies": {
+    "lodash": "^4.13.1"
+  }
+}
